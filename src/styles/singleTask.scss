@@ -1,0 +1,56 @@
+.single-task-container{
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: rgb(35, 38, 96);
+    color: #ccc;
+h3,p,div{
+    margin-bottom: 10px;
+}
+    button{
+        border: none;
+        padding: 5px 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+        background-color: blue;
+        color: rgb(255, 255, 255);
+
+    }
+    button:nth-of-type(2) {
+        background-color: red; // Second button
+        margin-left: 10px;
+      }
+   
+}
+
+.single-task-container-editable{
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: rgb(35, 38, 96);
+    color: #ccc;
+
+    input,textarea,select{
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        outline: none;
+    }
+
+    button{
+        border: none;
+        padding: 5px 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+        background-color: blue;
+        color: rgb(255, 255, 255);
+
+    }
+    button:nth-of-type(2) {
+        background-color: red; // Second button
+        margin-left: 10px;
+      }
+}
